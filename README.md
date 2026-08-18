@@ -1,13 +1,21 @@
-# Loon Personal Rules
+# Loon-Rules
 
-个人维护的 Loon 分流规则集。每个服务使用独立文件，互不合并、互不影响，可按需单独订阅。
+> 个人自用的 Loon 分流规则集。
+
+## 仓库说明
+
+本仓库用于统一收纳个人使用的 Loon 分流规则。每个服务对应一个独立文件，互不合并、互不影响，可按需单独订阅。
+
+- 现有 Emby 规则保持独立，更新其他服务时不会修改 `Emby.list`。
+- Binance 使用独立的 `Binance.list`，可单独添加、更新或停用。
+- 后续新增服务时继续创建新的 `.list` 文件，不把不同服务混入同一规则集。
 
 ## 规则集
 
 | 服务 | 规则文件 | 订阅地址 |
 | --- | --- | --- |
-| Emby | [`Emby.list`](./Emby.list) | [Raw](https://raw.githubusercontent.com/LuxJon/Loon-Emby-Rules/main/Emby.list) |
-| Binance | [`Binance.list`](./Binance.list) | [Raw](https://raw.githubusercontent.com/LuxJon/Loon-Emby-Rules/main/Binance.list) |
+| Emby | [`Emby.list`](./Emby.list) | [Raw](https://raw.githubusercontent.com/LuxJon/Loon-Rules/main/Emby.list) |
+| Binance | [`Binance.list`](./Binance.list) | [Raw](https://raw.githubusercontent.com/LuxJon/Loon-Rules/main/Binance.list) |
 
 ## 使用方式
 
